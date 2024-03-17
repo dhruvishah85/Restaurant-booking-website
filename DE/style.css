@@ -435,7 +435,11 @@ a:-webkit-any-link {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  
+
+    .card:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out 0.4s;
+  }
   .card-content {
     padding: 20px;
   }
