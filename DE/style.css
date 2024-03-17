@@ -352,13 +352,30 @@ a:-webkit-any-link {
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
+    #offer{
+    height:200vh;
+    border-radius: 20px;
+    /* display:flex; */
+    align-items:center;
+    background-color: #f9f6f6;
+  }
     .offer-container {
       flex-direction: column;
       align-items: stretch;
     }
     
     .offer {
-      margin: 10px 0;
+      margin-left: 10px;
+      margin-bottom: 10px;;
+      width:150px;
+      height:auto;
+      font-size:2em;
+    }
+    .offer a {
+      text-decoration: none;
+      color: #3fa960;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 60px;
     }
   }
 
